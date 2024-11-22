@@ -6,7 +6,7 @@ import './style.css'
 document.querySelector('#app').innerHTML = `
   <div class="w-full bg-gradient-to-b from-[#5fbbff] to-[#003773] shadow-lum">
     <div class="toolsDiv flex relative w-[1440px] p-0 -left-20 items-center">
-    <img src="public/images/arrow.png" class="h-24 z-30 absolute left-0" id="left-arrow">
+    <img src="images/arrow.png" class="h-24 z-30 absolute left-0" id="left-arrow">
 
     <div class="toolsContainer flex gap-36 px-24 z-0 w-full overflow-hidden ">
     <span><div class="stopWatch slider bg-gradient-to-b from-[#5fbbff] to-[#003773]"></div></span>
@@ -14,7 +14,7 @@ document.querySelector('#app').innerHTML = `
     
     </div>
 
-    <img src="public/images/arrow.png" class="h-24 z-30 rotate-180 absolute right-0" id="right-arrow">
+    <img src="images/arrow.png" class="h-24 z-30 rotate-180 absolute right-0" id="right-arrow">
     </div>  
 
   </div>
@@ -80,9 +80,9 @@ swHTML += `
 <h1 class="display-time drop-shadow-lg">00:00:00</h1>
 
 <div class="btn-container flex items-center justify-center gap-5">
-<img src="public/images/stop-118.png" class="stop-btn w-16 h-16 bg-gradient-to-r from-[#ff002c] to-[#d000f1] rounded-full">
-<img src="public/images/play-118.png" class="play-js w-20 h-20 bg-gradient-to-r from-[#00ff59] to-[#00d4f1] rounded-full">
-<img src="public/images/restart-118.png" class="restart-btn w-16 h-16 bg-gradient-to-r from-[#b8f100] to-[#ffa300] rounded-full">
+<img src="images/stop-118.png" class="stop-btn w-16 h-16 bg-gradient-to-r from-[#ff002c] to-[#d000f1] rounded-full">
+<img src="images/play-118.png" class="play-js w-20 h-20 bg-gradient-to-r from-[#00ff59] to-[#00d4f1] rounded-full">
+<img src="images/restart-118.png" class="restart-btn w-16 h-16 bg-gradient-to-r from-[#b8f100] to-[#ffa300] rounded-full">
 </div>
 <button class="lapse-btn bg-blue-400 rounded-lg p-1 mt-5 mb-2">Lapse</button>
 
