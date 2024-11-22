@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Londrina+Sketch&family=Mogra&family=Oswald:wght@200..700&family=Protest+Strike&family=Sixtyfour+Convergence&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Mogra", system-ui;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: linear-gradient(to bottom, #5f5fff, #4d0073);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.slider{
+  width: 1245px;
+  height: 400px;
+}
+
+.hidden-btn{
+  box-shadow: 0px 0px 5px black;
+}
+
+.hidden-btn:hover{
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, .5);
+}
+
+.t-button:hover{
+  box-shadow: 0px 1px 6px #00d0f1;
+}
+
+.t-inp:hover{
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.39);
+}
+
+input::placeholder{
+  color: #f9f9f9;
+}
